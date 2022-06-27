@@ -1,0 +1,71 @@
+{
+  "easy_n_english": "Easy\nEnglish",
+  "easy_english": "Easy English",
+  "langs": {
+    "english": "English",
+    "sinhala": "සිංහල",
+    "tamil": "தமிழ்"
+  },
+  "locale": {
+    "already_have_account": "දැනටමත් ගිණුමක් තිබේද? ",
+    "login": "ඇතුල් වන්න"
+  },
+  "login": {
+    "enter_your_phone_number": "Enter your Phone\nNumber to Start Learning",
+    "use_phone_number_instead": "Use Phone Number Instead",
+    "use_email_address_instead": "නැතිනම් විද්\u200Dයුත් තැපැල් ලිපිනය \nභාවිතා කරන්න",
+    "do_not_have_an_account": "DON'T HAVE AN ACCOUNT? ",
+    "register": " REGISTER"
+  },
+  "register": {
+    "who_are_you": "ඔබ කවුරුන්ද?",
+    "please_select_the_person": "ගිණුම පිහිටුවීමට ඔබ කවුරුන්දැයි\nකරුණාකර සඳහන් කරන්න",
+    "im_a_parent": "මම දෙමාපියෙක්",
+    "im_a_student": "මම ශිෂ්\u200Dයයෙක්",
+    "im_a_guest": "I'M A GUEST",
+    "verify_your_account": "ඔබේ ගිණුම තහවුරු කරන්න",
+    "enter_phone_number": "දුරකථන අංකය ඇතුළත් කරන්න",
+    "enter_email_address": "Enter Email Address",
+    "you_will_need_to_verify_phone": "මෙය ඔබගේ දුරකථන අංකයක් බවට තහවරු කර ගැනීමට අවශ්\u200Dය වේ",
+    "you_will_need_to_verify_email": "මෙය ඔබගේ දුරකථන අංකයක් බවට තහවරු කර ගැනීමට අවශ්\u200Dය වේ",
+    "use_phone_number_instead": "Use Phone Number Instead",
+    "use_email_address_instead": "නැතිනම් විද්\u200Dයුත් තැපැල් ලිපිනය \nභාවිතා කරන්න",
+    "what_is_your_name": "ඔබගේ නම කුමක්ද?",
+    "hint_name": "නම ඇතුළත් කරන්න",
+    "set_a_password": "මුරපදයක් සකසන්න",
+    "enter_password": "මුරපදය ඇතුළත් කරන්න",
+    "password_strength": "කරුණාකර UPPERCASE අකුරක් අංකයක් ^1-0& සහ සංකේතයක් ^@#$%^_*& ඇතුළත් මුරපදයක් ඇතුළත් කරන්න",
+    "re_enter_password": "මුරපදය නැවත ඇතුළත් කරන්න",
+    "an_email_has_been_sent_to": "An email has been sent to",
+    "please_click_link_to_verify_your_account": "Please click the link on the email to verify your account.",
+    "verification": "සත්\u200Dයාපනය ",
+    "successful": "සාර්\u200Dථකයි!",
+    "hooray_lets_start_learning": "Hooray! අපි ඉගෙනීම ආරම්භ කරමු!\nආරම්භ කිරීමට පහත බොත්තම\nඔබන්න",
+    "please_wait": "Please wait!",
+    "resend_verification_code": "සත්\u200Dයාපන කේතය නැවත ලබාගන්න "
+  },
+  "book": {
+    "book_title_n_level": "{title}\nBook {level}",
+    "completed_percentage": "{percentage}% Completed",
+    "listening": "Listening",
+    "speaking": "Speaking",
+    "reading_list": "කියවීමේ ලැයිස්තුව"
+  },
+  "dashboard": {
+    "hi": "Hi!",
+    "hi_name_get_started": "Hi {name}!\nඅපි පටන් ගනිමු!",
+    "greeting_1": "ඔබ Easy English වලට අලු\u200Dත් බැවින් පළමු පොතේ සිට ආරම්භ කරමු. ඔබ සූදානම් වූ පසු කියවීම ආරම්භ කිරීම සදහා ඉහත බොත්තම ඔබන්න!"
+  },
+  "flashcard": {
+    "similar_terms": "Similar Sounding Words"
+  },
+  "button": {
+    "start_learning_exclamation": "ඉගෙනීම ආරම්භ කරන්න!",
+    "start_learning": "ඉගෙනීම ආරම්භ කරන්න",
+    "continue": "ඉදිරියට යන්න",
+    "resend_now": "Resend Now"
+  },
+  "message": {
+    "validate_primary_language": "Please select your primary language"
+  }
+}

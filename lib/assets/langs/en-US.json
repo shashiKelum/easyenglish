@@ -1,0 +1,71 @@
+{
+  "easy_n_english": "Easy\nEnglish",
+  "easy_english": "Easy English",
+  "langs": {
+    "english": "English",
+    "sinhala": "සිංහල",
+    "tamil": "தமிழ்"
+  },
+  "locale": {
+    "already_have_account": "ALREADY HAVE AN ACCOUNT? ",
+    "login": "LOGIN"
+  },
+  "login": {
+    "enter_your_phone_number": "Enter your Phone\nNumber to Start Learning",
+    "use_phone_number_instead": "Use Phone Number Instead",
+    "use_email_address_instead": "Use Email Address Instead",
+    "do_not_have_an_account": "DON'T HAVE AN ACCOUNT? ",
+    "register": " REGISTER"
+  },
+  "register": {
+    "who_are_you": "Who are you?",
+    "please_select_the_person": "Please select the person\nsetting the account up",
+    "im_a_parent": "I'M A PARENT",
+    "im_a_student": "I'M A STUDENT",
+    "im_a_guest": "I'M A GUEST",
+    "verify_your_account": "Verify your account",
+    "enter_phone_number": "Enter Phone Number",
+    "enter_email_address": "Enter Email Address",
+    "you_will_need_to_verify_phone": "You'll need to verify that you own this phone number",
+    "you_will_need_to_verify_email": "You'll need to verify that you own this email account",
+    "use_phone_number_instead": "Use Phone Number Instead",
+    "use_email_address_instead": "Use Email Address Instead",
+    "what_is_your_name": "What is your name?",
+    "hint_name": "Name",
+    "set_a_password": "Set a password",
+    "enter_password": "Enter Password",
+    "password_strength": "Please enter a Password with including an UPPERCASE letter, a Number (1-0) and a Symbol (@#$%^_*).",
+    "re_enter_password": "Re-enter Password",
+    "an_email_has_been_sent_to": "An email has been sent to",
+    "please_click_link_to_verify_your_account": "Please click the link on the email to verify your account.",
+    "verification": "Verification ",
+    "successful": "Successful!",
+    "hooray_lets_start_learning": "Hooray! Let's start learning!\nClick the button below to begin!",
+    "please_wait": "Please wait!",
+    "resend_verification_code": "Resend Verification Code in "
+  },
+  "book": {
+    "book_title_n_level": "{title}\nBook {level}",
+    "completed_percentage": "{percentage}% Completed",
+    "listening": "Listening",
+    "speaking": "Speaking",
+    "reading_list": "Reading List"
+  },
+  "dashboard": {
+    "hi": "Hi!",
+    "hi_name_get_started": "Hi {name}!\nLet's Get Started!",
+    "greeting_1": "You're new to Easy English, so let's start with Book {level}. Press the play button when you're ready to start reading!"
+  },
+  "flashcard": {
+    "similar_terms": "Similar Sounding Words"
+  },
+  "button": {
+    "start_learning_exclamation": "Start Learning!",
+    "start_learning": "Start Learning",
+    "continue": "Continue",
+    "resend_now": "Resend Now"
+  },
+  "message": {
+    "validate_primary_language": "Please select your primary language"
+  }
+}

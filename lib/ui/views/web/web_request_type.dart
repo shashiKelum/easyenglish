@@ -1,0 +1,1 @@
+enum WebRequestType { Checkout, Terms }

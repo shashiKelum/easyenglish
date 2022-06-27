@@ -1,0 +1,145 @@
+{
+  "project_info": {
+    "project_number": "290622074989",
+    "project_id": "easyenglish-cf0d0",
+    "storage_bucket": "easyenglish-cf0d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290622074989:android:91e1cf15037cc0e123cf64",
+        "android_client_info": {
+          "package_name": "com.wearemeridian.easyenglish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290622074989-0jk033ef7vj81bauodud2qncoljm0iu3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wearemeridian.easyenglish",
+            "certificate_hash": "c76d311d9259b69a4df5324b7569df8824299962"
+          }
+        },
+        {
+          "client_id": "290622074989-4340rrht6eebun8ifdmaa6ihbi1gm0lm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wearemeridian.easyenglish",
+            "certificate_hash": "87dd23142b6dc4aa51c625206ce712b42f1fe65b"
+          }
+        },
+        {
+          "client_id": "290622074989-l0s3djukfkte3dms95nr80g6q4loc6j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaFPAvdtfAKO_PBEbBhZzVGrKLYJgPjFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290622074989-l0s3djukfkte3dms95nr80g6q4loc6j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290622074989:android:12f4e4684a2b4d6923cf64",
+        "android_client_info": {
+          "package_name": "com.wearemeridian.easyenglish.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290622074989-07sshikq7v2hbvckjogfipf2aonptlo3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wearemeridian.easyenglish.dev",
+            "certificate_hash": "87dd23142b6dc4aa51c625206ce712b42f1fe65b"
+          }
+        },
+        {
+          "client_id": "290622074989-dipg7tm5fgg2g16oqvctes3lq67dg19l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wearemeridian.easyenglish.dev",
+            "certificate_hash": "c76d311d9259b69a4df5324b7569df8824299962"
+          }
+        },
+        {
+          "client_id": "290622074989-l0s3djukfkte3dms95nr80g6q4loc6j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaFPAvdtfAKO_PBEbBhZzVGrKLYJgPjFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290622074989-l0s3djukfkte3dms95nr80g6q4loc6j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290622074989:android:625f5330e056a20023cf64",
+        "android_client_info": {
+          "package_name": "com.wearemeridian.easyenglish.tst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290622074989-evhsdepvj7nvduk2b4sjss4ih5i0j0cj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wearemeridian.easyenglish.tst",
+            "certificate_hash": "c76d311d9259b69a4df5324b7569df8824299962"
+          }
+        },
+        {
+          "client_id": "290622074989-qql3fd4s93747ocq9tajjvumallj0d2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wearemeridian.easyenglish.tst",
+            "certificate_hash": "87dd23142b6dc4aa51c625206ce712b42f1fe65b"
+          }
+        },
+        {
+          "client_id": "290622074989-l0s3djukfkte3dms95nr80g6q4loc6j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaFPAvdtfAKO_PBEbBhZzVGrKLYJgPjFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290622074989-l0s3djukfkte3dms95nr80g6q4loc6j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

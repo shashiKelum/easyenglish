@@ -1,0 +1,1 @@
+enum PromoPageType { Promotions, PartnerPromotions }
