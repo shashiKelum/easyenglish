@@ -21,6 +21,8 @@ import 'package:easyenglish/ui/widgets/mobile_number_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_support_pack/flutter_support_pack.dart';
 import 'package:stacked/stacked.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 
 class InputView extends ViewModelWidget<RegisterViewModel> {
   final bool isEmail;
@@ -34,7 +36,7 @@ class InputView extends ViewModelWidget<RegisterViewModel> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(LocaleKeys.register_verify_your_account.tr(),
+          Text(AppLocalizations.of(context)!.verify_your_account,
               style: AppStyle.text30SB),
           SizedBox(height: 12),
           Expanded(
@@ -50,7 +52,7 @@ class InputView extends ViewModelWidget<RegisterViewModel> {
                           controller: viewModel.emailController,
                           decoration: InputDecoration(
                               hintText:
-                                  LocaleKeys.register_enter_email_address.tr()),
+                                  AppLocalizations.of(context)!.enter_email_address),
                           validator: Validators.validateRequired,
                           textCapitalization: TextCapitalization.none,
                           keyboardType: TextInputType.emailAddress,
@@ -64,8 +66,8 @@ class InputView extends ViewModelWidget<RegisterViewModel> {
                   padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
                   child: Text(
                     isEmail
-                        ? LocaleKeys.register_you_will_need_to_verify_email
-                        : LocaleKeys.register_you_will_need_to_verify_phone,
+                        ? AppLocalizations.of(context)!.you_will_need_to_verify_email
+                        : AppLocalizations.of(context)!.you_will_need_to_verify_phone,
                     style: AppStyle.text12M,
                   ).tr(),
                 ),
@@ -80,8 +82,8 @@ class InputView extends ViewModelWidget<RegisterViewModel> {
                       SizedBox(width: 8),
                       Text(
                         isEmail
-                            ? LocaleKeys.register_use_phone_number_instead
-                            : LocaleKeys.register_use_email_address_instead,
+                            ? AppLocalizations.of(context)!.use_phone_number_instead
+                            : AppLocalizations.of(context)!.use_email_address_instead,
                         style: AppStyle.text20SB
                             .copyWith(color: AppColors.primary),
                       ).tr(),

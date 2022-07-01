@@ -1,23 +1,16 @@
 {
-  "easy_n_english": "Easy\nEnglish",
-  "easy_english": "Easy English",
-  "langs": {
+    "easy_n_english": "Easy\nEnglish",
+    "easy_english": "Easy English",
     "english": "English",
     "sinhala": "සිංහල",
-    "tamil": "தமிழ்"
-  },
-  "locale": {
+    "tamil": "தமிழ்",
     "already_have_account": "දැනටමත් ගිණුමක් තිබේද? ",
-    "login": "ඇතුල් වන්න"
-  },
-  "login": {
+    "login": "ඇතුල් වන්න",
     "enter_your_phone_number": "Enter your Phone\nNumber to Start Learning",
     "use_phone_number_instead": "Use Phone Number Instead",
     "use_email_address_instead": "නැතිනම් විද්\u200Dයුත් තැපැල් ලිපිනය \nභාවිතා කරන්න",
     "do_not_have_an_account": "DON'T HAVE AN ACCOUNT? ",
-    "register": " REGISTER"
-  },
-  "register": {
+    "register": " REGISTER",
     "who_are_you": "ඔබ කවුරුන්ද?",
     "please_select_the_person": "ගිණුම පිහිටුවීමට ඔබ කවුරුන්දැයි\nකරුණාකර සඳහන් කරන්න",
     "im_a_parent": "මම දෙමාපියෙක්",
@@ -42,30 +35,19 @@
     "successful": "සාර්\u200Dථකයි!",
     "hooray_lets_start_learning": "Hooray! අපි ඉගෙනීම ආරම්භ කරමු!\nආරම්භ කිරීමට පහත බොත්තම\nඔබන්න",
     "please_wait": "Please wait!",
-    "resend_verification_code": "සත්\u200Dයාපන කේතය නැවත ලබාගන්න "
-  },
-  "book": {
+    "resend_verification_code": "සත්\u200Dයාපන කේතය නැවත ලබාගන්න ",
     "book_title_n_level": "{title}\nBook {level}",
     "completed_percentage": "{percentage}% Completed",
     "listening": "Listening",
     "speaking": "Speaking",
-    "reading_list": "කියවීමේ ලැයිස්තුව"
-  },
-  "dashboard": { 
+    "reading_list": "කියවීමේ ලැයිස්තුව",
     "hi": "Hi!",
     "hi_name_get_started": "Hi {name}!\nඅපි පටන් ගනිමු!",
-    "greeting_1": "ඔබ Easy English වලට අලු\u200Dත් බැවින් පළමු පොතේ සිට ආරම්භ කරමු. ඔබ සූදානම් වූ පසු කියවීම ආරම්භ කිරීම සදහා ඉහත බොත්තම ඔබන්න!"
-  },
-  "flashcard": {
-    "similar_terms": "Similar Sounding Words"
-  },
-  "button": {
+    "greeting_1": "ඔබ Easy English වලට අලු\u200Dත් බැවින් පළමු පොතේ සිට ආරම්භ කරමු. ඔබ සූදානම් වූ පසු කියවීම ආරම්භ කිරීම සදහා ඉහත බොත්තම ඔබන්න!",
+    "similar_terms": "Similar Sounding Words",
     "start_learning_exclamation": "ඉගෙනීම ආරම්භ කරන්න!",
     "start_learning": "ඉගෙනීම ආරම්භ කරන්න",
-    "continue": "ඉදිරියට යන්න",
-    "resend_now": "Resend Now"
-  },
-  "message": {
+    "continue_to_forword": "ඉදිරියට යන්න",
+    "resend_now": "Resend Now",
     "validate_primary_language": "Please select your primary language"
-  }
 }

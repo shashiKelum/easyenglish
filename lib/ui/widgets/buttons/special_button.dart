@@ -19,6 +19,7 @@ import 'package:easyenglish/ui/theme/color.dart';
 import 'package:easyenglish/ui/theme/styles.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class SpecialButton extends StatefulWidget {
   final String text;
@@ -117,7 +118,7 @@ class _SpecialButtonState extends State<SpecialButton>
                             ? Matrix4.rotationY(pi)
                             : Matrix4.identity(),
                         child: Text(
-                          widget.text.tr(),
+                          AppLocalizations.of(context)!.continue_to_forword,
                           style: AppStyle.text20SB.copyWith(
                               color: widget.onPressed == null
                                   ? widget.textColorDisabled

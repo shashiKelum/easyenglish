@@ -20,6 +20,8 @@ import 'package:easyenglish/ui/widgets/buttons/special_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_support_pack/flutter_support_pack.dart';
 import 'package:stacked/stacked.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 
 class NameView extends ViewModelWidget<RegisterViewModel> {
   @override
@@ -29,14 +31,14 @@ class NameView extends ViewModelWidget<RegisterViewModel> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(LocaleKeys.register_what_is_your_name.tr(), style: AppStyle.text30SB),
+          Text(AppLocalizations.of(context)!.what_is_your_name, style: AppStyle.text30SB),
           SizedBox(height: 12),
           Expanded(
             child: Form(
               key: viewModel.formKeyName,
               child: TextFormField(
                 controller: viewModel.nameController,
-                decoration: InputDecoration(hintText: LocaleKeys.register_hint_name.tr()),
+                decoration: InputDecoration(hintText: AppLocalizations.of(context)!.hint_name),
                 validator: Validators.validateRequired,
                 textCapitalization: TextCapitalization.words,
               ),

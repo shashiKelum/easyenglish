@@ -21,6 +21,7 @@ import 'package:easyenglish/ui/views/register/register_view_model.dart';
 import 'package:easyenglish/ui/widgets/account_type_widget.dart';
 import 'package:easyenglish/ui/widgets/buttons/special_button.dart';
 import 'package:easyenglish/ui/widgets/monkey_widget.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
@@ -32,7 +33,7 @@ class AccountSelectionView extends ViewModelWidget<RegisterViewModel> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(LocaleKeys.register_who_are_you.tr(), style: AppStyle.text30SB),
+          Text(AppLocalizations.of(context)!.who_are_you, style: AppStyle.text30SB),
           SizedBox(height: 12),
           Row(
             children: [
@@ -59,7 +60,7 @@ class AccountSelectionView extends ViewModelWidget<RegisterViewModel> {
               padding: const EdgeInsets.all(20),
               child: MonkeyWidget(
                 monkey: R.image.img_monkey_2(),
-                text: LocaleKeys.register_please_select_the_person.tr(),
+                text: AppLocalizations.of(context)!.please_select_the_person,
               ),
             ),
           ),

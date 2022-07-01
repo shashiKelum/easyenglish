@@ -19,6 +19,8 @@ import 'package:easyenglish/ui/widgets/buttons/special_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_support_pack/flutter_support_pack.dart';
 import 'package:stacked/stacked.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 
 class PasswordView extends ViewModelWidget<RegisterViewModel> {
   @override
@@ -28,7 +30,7 @@ class PasswordView extends ViewModelWidget<RegisterViewModel> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(LocaleKeys.register_set_a_password.tr(), style: AppStyle.text30SB),
+          Text(AppLocalizations.of(context)!.set_a_password, style: AppStyle.text30SB),
           SizedBox(height: 12),
           Expanded(
             child: Form(
@@ -38,7 +40,7 @@ class PasswordView extends ViewModelWidget<RegisterViewModel> {
                 children: [
                   TextFormField(
                     controller: viewModel.passwordController,
-                    decoration: InputDecoration(hintText: LocaleKeys.register_enter_password.tr()),
+                    decoration: InputDecoration(hintText: AppLocalizations.of(context)!.enter_password),
                     validator: Validators.validateRequired,
                     keyboardType: TextInputType.text,
                     obscureText: true,
@@ -46,13 +48,13 @@ class PasswordView extends ViewModelWidget<RegisterViewModel> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
                     child: Text(
-                      LocaleKeys.register_password_strength.tr(),
+                      AppLocalizations.of(context)!.password_strength,
                       style: AppStyle.text12M,
                     ),
                   ),
                   TextFormField(
                     controller: viewModel.cPasswordController,
-                    decoration: InputDecoration(hintText: LocaleKeys.register_re_enter_password.tr()),
+                    decoration: InputDecoration(hintText: AppLocalizations.of(context)!.re_enter_password),
                     validator: (value) => Validators.validateConfirmPassword(
                         value, viewModel.passwordController.text),
                     keyboardType: TextInputType.text,

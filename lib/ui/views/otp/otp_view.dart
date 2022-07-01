@@ -24,6 +24,7 @@ import 'package:easyenglish/ui/widgets/monkey_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:stacked/stacked.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../../ui/views/otp/otp_view_model.dart';
 
@@ -44,7 +45,7 @@ class OtpView extends ViewModelBuilderWidget<OtpViewModel> {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Text(LocaleKeys.register_verify_your_account.tr(),
+                Text(AppLocalizations.of(context)!.verify_your_account,
                     style: AppStyle.text30SB),
                 SizedBox(height: 52),
                 Form(
@@ -64,12 +65,12 @@ class OtpView extends ViewModelBuilderWidget<OtpViewModel> {
                               R.svg.ic_successful(width: 22.47, height: 20.34)),
                       SizedBox(width: 4),
                       Text(
-                        LocaleKeys.register_verification.tr(),
+                        AppLocalizations.of(context)!.verification,
                         style: AppStyle.text20SB
                             .copyWith(color: AppColors.textPrimary),
                       ),
                       Text(
-                        LocaleKeys.register_successful.tr(),
+                        AppLocalizations.of(context)!.successful,
                         style: AppStyle.text20SB
                             .copyWith(color: AppColors.primary),
                       ),
@@ -84,8 +85,7 @@ class OtpView extends ViewModelBuilderWidget<OtpViewModel> {
                         padding: const EdgeInsets.all(20),
                         child: MonkeyWidget(
                           monkey: R.image.img_monkey_3(),
-                          text: LocaleKeys.register_hooray_lets_start_learning
-                              .tr(),
+                          text: AppLocalizations.of(context)!.hooray_lets_start_learning,
                         ),
                       ),
                     ),
@@ -99,7 +99,7 @@ class OtpView extends ViewModelBuilderWidget<OtpViewModel> {
             ),
           if (model.verified)
             SpecialButton(
-              text: LocaleKeys.button_start_learning.tr(),
+              text: AppLocalizations.of(context)!.start_learning,
               onPressed: model.onClickStart,
             )
         ],
