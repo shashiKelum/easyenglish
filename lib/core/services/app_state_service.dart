@@ -15,9 +15,11 @@ import 'package:easy_localization/src/public_ext.dart';
 import 'package:easyenglish/core/enums/account_type.dart';
 import 'package:easyenglish/core/enums/language.dart';
 import 'package:easyenglish/core/services/secure_store_service.dart';
+import 'package:easyenglish/provider/locale_provider.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_support_pack/flutter_support_pack.dart';
+import 'package:provider/provider.dart';
 import 'package:rxdart/rxdart.dart';
 
 import '../../core/enums/auth_state.dart';
@@ -151,6 +153,23 @@ class AppStateService {
     } else {
       return _langController.value;
     }
+  }
+  
+  //Line number 159 to 174 (New changes)
+  Future<void> switchLanguageNew(BuildContext context) async {
+    var provider =
+            Provider.of<LocaleProvider>(context, listen: false);            
+    Locale language = await getLanguageNew(context);
+    if(language.toString() == "en") {
+        provider.setLocale(const Locale('si'));        
+    } else {
+        provider.setLocale(const Locale('en'));
+    }
+  }
+
+  Future<Locale> getLanguageNew(context) async {
+    Locale myLocale = Localizations.localeOf(context);
+    return myLocale;
   }
 
   void setLanguage(BuildContext context, Language language) {

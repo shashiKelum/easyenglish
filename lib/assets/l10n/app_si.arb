@@ -49,5 +49,8 @@
     "start_learning": "ඉගෙනීම ආරම්භ කරන්න",
     "continue_to_forword": "ඉදිරියට යන්න",
     "resend_now": "Resend Now",
-    "validate_primary_language": "Please select your primary language"
+    "validate_primary_language": "Please select your primary language",
+    "book1page1bottom": "ඔබට මෙහි කතන්දර කියවීමට අවශ්‍ය නම්, ඔබ අක්ෂර ශබ්ද ඉගෙන ගත යුතුය.",
+    "book1page2bottom": "එක් එක් අකුර සඳහා ඊට අදාල නම සහ ලිවීමේ හැඩය පුහුණු කරන්න.",
+    "book1page4bottom": "වචනයේ භාවිතා කරන ශබ්ද අක්ෂරය ඇසීමට අක්ෂරය මත ටැප් කරන්න."
 }

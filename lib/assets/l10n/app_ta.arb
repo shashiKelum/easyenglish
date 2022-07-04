@@ -49,5 +49,8 @@
     "start_learning": "Start Learning",
     "continue_to_forword": "Continue",
     "resend_now": "Resend Now",
-    "validate_primary_language": "Please select your primary language"
+    "validate_primary_language": "Please select your primary language",
+    "book1page1bottom": "To read the stories in the app, you need to learn the letter sounds.",
+    "book1page2bottom": "Practice the letter names and the writing shape for each letter.",
+    "book1page4bottom": "Tap the words to hear the phonic letter used in the word."
 }

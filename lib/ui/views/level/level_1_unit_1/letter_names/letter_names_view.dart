@@ -8,6 +8,7 @@ import 'package:easyenglish/ui/widgets/buttons/button.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:stacked/stacked.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import 'letter_names_view_model.dart';
 
@@ -45,31 +46,10 @@ class LetterNamesView extends ViewModelBuilderWidget<LetterNamesViewModel> {
             ),
           ),
           SizedBox(height: 16),
-          Align(
-            alignment: Alignment.centerLeft,
-            child: Wrap(
-              crossAxisAlignment: WrapCrossAlignment.start,
-              alignment: WrapAlignment.start,
-              runAlignment: WrapAlignment.start,
-              children: [
-                Text(
-                  'These are called the ',
-                  style:
-                      AppStyle.text22SB.copyWith(color: AppColors.textPrimary),
-                ),
-                Text(
-                  'Letter Names',
-                  style: AppStyle.text22SB.copyWith(color: AppColors.primary),
-                ),
-                Text('.',
-                    style: AppStyle.text22SB
-                        .copyWith(color: AppColors.textPrimary)),
-              ],
-            ),
-          ),
+          viewModel.book1page1(context),
           SizedBox(height: 32),
           Text(
-            'To read the stories in the app, you need to learn the letter sounds.',
+            AppLocalizations.of(context)!.book1page1bottom,
             style: AppStyle.text22SB.copyWith(color: AppColors.textPrimary),
           ),
           SizedBox(height: 32),
