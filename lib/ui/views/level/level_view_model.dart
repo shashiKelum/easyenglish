@@ -47,7 +47,8 @@ class LevelViewModel extends BaseViewModel {
   }
 
   void onTapLanguage(BuildContext context) async {
-    await _appStateService.switchLanguage(context);
+    //New changes 
+    await _appStateService.switchLanguageNew(context);
   }
 
   void onClickBack() => _navigationService.back();

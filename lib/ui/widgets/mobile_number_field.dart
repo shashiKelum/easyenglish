@@ -13,6 +13,7 @@
 
 import 'package:easy_localization/src/public_ext.dart';
 import 'package:easyenglish/generated/codegen_loader.g.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 
 class MobileNumberField extends StatelessWidget {
@@ -61,7 +62,7 @@ class MobileNumberField extends StatelessWidget {
               readOnly: readOnly,
               validator: validator,
               decoration: InputDecoration(
-                hintText: LocaleKeys.register_enter_phone_number.tr(),
+                hintText: AppLocalizations.of(context)!.enter_phone_number,
               ),
             ),
           ),

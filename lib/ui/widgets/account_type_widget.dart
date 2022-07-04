@@ -16,6 +16,8 @@ import 'package:easyenglish/core/methods/typedefs.dart';
 import 'package:easyenglish/ui/theme/color.dart';
 import 'package:easyenglish/ui/theme/styles.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 
 class AccountTypeWidget extends StatelessWidget {
   final AccountType accountType;
@@ -55,12 +57,20 @@ class AccountTypeWidget extends StatelessWidget {
             ),
           ),
           SizedBox(height: 8),
-          Text(
-            accountType.text,
+          accountType.text == 'register.im_a_parent' ?
+           Text(
+            AppLocalizations.of(context)!.im_a_parent,
             style: AppStyle.text18SB.copyWith(
               color: selected ? AppColors.primary : AppColors.textPrimary,
             ),
           )
+          :Text(
+            AppLocalizations.of(context)!.im_a_student,
+            style: AppStyle.text18SB.copyWith(
+              color: selected ? AppColors.primary : AppColors.textPrimary,
+            ),
+          ),
+          
         ],
       ),
     );

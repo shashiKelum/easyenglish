@@ -24,6 +24,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_support_pack/flutter_support_pack.dart';
 import 'package:stacked/stacked.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class LoginInputView extends ViewModelWidget<LoginViewModel> {
   @override
@@ -52,7 +53,7 @@ class LoginInputView extends ViewModelWidget<LoginViewModel> {
                       height: MediaQuery.of(context).size.height * 0.25,
                       child: MonkeyWidget(
                         monkey: R.image.img_monkey_7(),
-                        text: LocaleKeys.login_enter_your_phone_number.tr(),
+                        text:  AppLocalizations.of(context)!.enter_your_phone_number,
                       ),
                     ),
                     MobileNumberField(
@@ -99,11 +100,11 @@ class LoginInputView extends ViewModelWidget<LoginViewModel> {
                   text: TextSpan(
                     children: [
                       TextSpan(
-                        text: LocaleKeys.login_do_not_have_an_account.tr(),
+                        text:  AppLocalizations.of(context)!.do_not_have_an_account,
                         style: AppStyle.text18SB,
                       ),
                       TextSpan(
-                        text: LocaleKeys.login_register.tr(),
+                        text:  AppLocalizations.of(context)!.register,
                         style: AppStyle.text18SB
                             .copyWith(color: AppColors.primary),
                         recognizer: viewModel.onTapSignUp,

@@ -20,6 +20,7 @@ import 'package:easyenglish/ui/views/register/register_view_model.dart';
 import 'package:easyenglish/ui/widgets/buttons/special_button.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class VerifyEmailView extends ViewModelWidget<RegisterViewModel> {
   @override
@@ -29,14 +30,14 @@ class VerifyEmailView extends ViewModelWidget<RegisterViewModel> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(LocaleKeys.register_verify_your_account.tr(), style: AppStyle.text30SB),
+          Text(AppLocalizations.of(context)!.verify_your_account, style: AppStyle.text30SB),
           SizedBox(height: 16),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  LocaleKeys.register_an_email_has_been_sent_to.tr(),
+                  AppLocalizations.of(context)!.an_email_has_been_sent_to,
                   style: AppStyle.text22M,
                 ),
                 Text(
@@ -45,7 +46,7 @@ class VerifyEmailView extends ViewModelWidget<RegisterViewModel> {
                 ),
                 SizedBox(height: 24),
                 Text(
-                  LocaleKeys.register_please_click_link_to_verify_your_account.tr(),
+                  AppLocalizations.of(context)!.please_click_link_to_verify_your_account,
                   style: AppStyle.text22M,
                 ),
                 SizedBox(height: 24),
@@ -59,7 +60,7 @@ class VerifyEmailView extends ViewModelWidget<RegisterViewModel> {
                       ),
                       SizedBox(width: 8),
                       Text(
-                        LocaleKeys.register_use_phone_number_instead.tr(),
+                        AppLocalizations.of(context)!.use_phone_number_instead,
                         style: AppStyle.text20SB
                             .copyWith(color: AppColors.primary),
                       ),

@@ -43,7 +43,7 @@ class LocaleViewModel extends BaseViewModel {
 
   void onClickBack() {
     _navigationService.back();
-  }
+  } 
 
   onTapLangItem(BuildContext context, Language language,
       LocaleItemViewPosition position) {

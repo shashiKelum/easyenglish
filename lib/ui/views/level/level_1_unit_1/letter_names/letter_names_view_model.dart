@@ -1,9 +1,14 @@
 import 'dart:convert';
 
 import 'package:easyenglish/core/models/letters_entity.dart';
+import 'package:easyenglish/ui/theme/color.dart';
+import 'package:easyenglish/ui/theme/styles.dart';
 import 'package:easyenglish/ui/views/level/level_view_model.dart';
 import 'package:easyenglish/ui/widgets/audio_controller/audio_controller_view_model.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 
 class LetterNamesViewModel extends AudioControllerViewModel {
   /// 1 = capital letters
@@ -53,5 +58,68 @@ class LetterNamesViewModel extends AudioControllerViewModel {
         break;
       }
     }
+  }  
+
+  //For changing languages
+  Widget book1page1(BuildContext context) {
+    String currLocale = Localizations.localeOf(context).toString();
+    switch (currLocale) {
+      case 'en':
+        return getEngBook1Page1(context);
+      case 'si':
+        return getSiBook1Page1(context);    
+    }
+
+    return getEngBook1Page1(context);
+  }
+
+  Widget getEngBook1Page1(BuildContext context) {
+    return Align(
+      alignment: Alignment.centerLeft,
+      child: Wrap(
+        crossAxisAlignment: WrapCrossAlignment.start,
+        alignment: WrapAlignment.start,
+        runAlignment: WrapAlignment.start,
+        children: [
+          Text(
+              'These are called the ',
+            style:
+                AppStyle.text22SB.copyWith(color: AppColors.textPrimary),
+          ),
+          Text(
+            'Letter Names',
+            style: AppStyle.text22SB.copyWith(color: AppColors.primary),
+          ),
+          Text('.',
+              style: AppStyle.text22SB
+                  .copyWith(color: AppColors.textPrimary)),
+        ],
+      ),
+    );
+  }
+
+  Widget getSiBook1Page1(BuildContext context) {
+    return Align(
+      alignment: Alignment.centerLeft,
+      child: Wrap(
+        crossAxisAlignment: WrapCrossAlignment.start,
+        alignment: WrapAlignment.start,
+        runAlignment: WrapAlignment.start,
+        children: [
+          Text(
+              'මේවා ',
+            style:
+                AppStyle.text22SB.copyWith(color: AppColors.textPrimary),
+          ),
+          Text(
+            'අකුරු නාම ',
+            style: AppStyle.text22SB.copyWith(color: AppColors.primary),
+          ),
+          Text('ලෙස හැඳින්වේ.',
+              style: AppStyle.text22SB
+                  .copyWith(color: AppColors.textPrimary)),
+        ],
+      ),
+    );
   }
 }
